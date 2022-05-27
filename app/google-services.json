@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "342180629020",
+    "project_id": "sm-tours-dcab8",
+    "storage_bucket": "sm-tours-dcab8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342180629020:android:1a82f5ec6da12340c6add9",
+        "android_client_info": {
+          "package_name": "com.example.smtours"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342180629020-8na4p4t0ighkoo29cdooa70l9t5l6ccn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFJgsUTYpPlrefXOOFVsHwhUtxN65NjOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342180629020-8na4p4t0ighkoo29cdooa70l9t5l6ccn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

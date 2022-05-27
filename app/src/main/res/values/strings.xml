@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">SM Tours</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="bd_place_name">
+        <item>Hanging Bridge</item>
+        <item>Cox’s Bazar Sea Beach</item>
+        <item>Mangrove Forest</item>
+        <item>Floating Guava Market</item>
+        <item>Nafakhum Waterfall</item>
+        <item>Paharpur</item>
+        <item>Sonargaon Panam Nagar</item>
+        <item>Shaat Gombuj Mosque</item>
+        <item>Srimangal</item>
+        <item>Kuakata Sea Beach</item>
+    </string-array>
+
+    <string-array name="bd_place_description">
+        <item>Rangamati, Chittagong</item>
+        <item>Cox’s Bazar, Chittagong</item>
+        <item>Sundarban, Khulna</item>
+        <item>Pirojpur, Barishal</item>
+        <item>Bandarban, Chittagong</item>
+        <item>Naogaon, Rajshahi</item>
+        <item>Narayanganj, Dhaka</item>
+        <item>Bagerhat, Khulna</item>
+        <item>Moulvibazar, Sylhet</item>
+        <item>Patuakhali, Barishal</item>
+    </string-array>
+
+    <string-array name="abroad_place_name">
+        <item>Maasai Kara</item>
+        <item>Cloud Forests</item>
+        <item>Kerala</item>
+        <item>Phuket</item>
+        <item>Bali</item>
+        <item>Santorini</item>
+        <item>Pyramids of Giza</item>
+        <item>Florence</item>
+        <item>Sydney</item>
+        <item>Amsterdam</item>
+    </string-array>
+
+    <string-array name="abroad_place_description">
+        <item>Kenya</item>
+        <item>Costa Rica</item>
+        <item>India</item>
+        <item>Thailand</item>
+        <item>Indonesia</item>
+        <item>Greece</item>
+        <item>Egypt</item>
+        <item>Italy</item>
+        <item>Australia</item>
+        <item>Netherlands</item>
+    </string-array>
+
+    <string name="about">This app will help people to make a plan for a tour easily. One can select a tour place and preferable date for the trip.</string>
+
+</resources>

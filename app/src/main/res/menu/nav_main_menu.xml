@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_tours"
+        android:icon="@drawable/mytours_icon"
+        android:title="My Tours"/>
+
+    <item
+        android:id="@+id/my_profile"
+        android:icon="@drawable/profile_icon"
+        android:title="My Profile"/>
+
+    <item
+        android:id="@+id/terms_conditions"
+        android:icon="@drawable/terms_icon"
+        android:title="Terms &amp; Conditions"/>
+
+    <item
+        android:id="@+id/about_page"
+        android:icon="@drawable/about_icon"
+        android:title="About"/>
+
+    <item
+        android:id="@+id/sign_out"
+        android:icon="@drawable/logout_icon"
+        android:title="Sign Out"/>
+</menu>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background3"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="6">
+
+                    <TextView
+                        android:id="@+id/placeNameInTour"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:text="Sample name"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textStyle="bold"
+                        />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="?android:attr/borderlessButtonStyle"
+                        android:id="@+id/cancelButtonintours"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/delete_icon"
+                        app:iconGravity="start"
+                        app:iconTint="#FF0000"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/dateInTour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sample date"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textColor="?android:attr/textColorSecondary"
+                    />
+
+                <TextView
+                    android:id="@+id/personInTour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sample person"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textColor="?android:attr/textColorSecondary"
+                    />
+
+                <TextView
+                    android:id="@+id/startLocationInTour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Start location"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                <TextView
+                    android:id="@+id/transportInTour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Transport"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                <TextView
+                    android:id="@+id/startTimeInTour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Start time"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+            </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

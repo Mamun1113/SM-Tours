@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background1"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context=".LogIn">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_takeatour"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="end"
+        android:layout_weight="0.7"
+        android:fontFamily="@font/alef"
+        android:paddingTop="5dp"
+        android:text="Take a tour"
+        android:textColor="#F56A4D"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:icon="@drawable/go_icon"
+        app:iconGravity="end"
+        app:iconTint="@color/button1"
+        app:rippleColor="@color/white" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/icon3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:text="SM TOURS"
+        android:textColor="@color/button1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:hint="Email"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:boxBackgroundColor="@color/white"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:startIconDrawable="@drawable/username_icon"
+        app:startIconTint="@color/button1">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_useremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:hint="Password"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:boxBackgroundColor="@color/white"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/black"
+        app:startIconDrawable="@drawable/password_icon"
+        app:startIconTint="@color/button1">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.9"
+        android:backgroundTint="@color/button1"
+        android:fontFamily="@font/alef"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:rippleColor="@color/white"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_forgot_password"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.7"
+        android:fontFamily="@font/alef"
+        android:gravity="top"
+        android:text="Forgot password? Click here..."
+        android:textAllCaps="false"
+        android:textColor="@color/contrast8by9"
+        android:textSize="12sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:fontFamily="@font/alef"
+        android:gravity="center"
+        android:text="Don't have an account?"
+        android:textColor="@color/contrast8by9"
+        android:textSize="20sp"
+        android:textStyle="" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.9"
+        android:backgroundTint="@color/button1"
+        android:fontFamily="@font/alef"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:rippleColor="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    android:background="@drawable/popup_background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="5">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:src="@drawable/terms_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/aladin"
+        android:gravity="center_vertical"
+        android:text="1. Payment once done, can't be undone"
+        android:textColor="@color/black"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/aladin"
+        android:gravity="center_vertical"
+        android:text="2. Cancellation is possible only before 5 days of the tour"
+        android:textColor="@color/black"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/aladin"
+        android:gravity="center_vertical"
+        android:text="3. After cancellation 85% payment will be refunded"
+        android:textColor="@color/black"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/aladin"
+        android:gravity="center_vertical"
+        android:text="4. In case of emergency cancellation contact with the manager immediately"
+        android:textColor="@color/black"
+        android:textSize="22sp"/>
+
+
+</LinearLayout>

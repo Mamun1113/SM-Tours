@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".TourDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background1"
+        android:orientation="vertical"
+        android:weightSum="10.3">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/placeNameInDescription"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.6"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            android:text="Sample place name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.1"
+            android:hint="Tour date"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:startIconDrawable="@drawable/calendar_icon"
+            app:startIconTint="@color/button1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nextTourInDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.1"
+            android:hint="Distance from Dhaka"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:startIconDrawable="@drawable/distance_icon"
+            app:startIconTint="@color/button1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/distanceInDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.1"
+            android:hint="Transport"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:startIconDrawable="@drawable/transport_icon"
+            app:startIconTint="@color/button1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/transportInDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.1"
+            android:hint="Cost per person"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:startIconDrawable="@drawable/taka_icon"
+            app:startIconTint="@color/button1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/costperpersonInDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.1"
+            android:hint="Duration of stay"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:startIconDrawable="@drawable/daynight_icon"
+            app:startIconTint="@color/button1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/durationInDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2.6"
+            android:hint="Food"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            app:startIconDrawable="@drawable/food_icon"
+            app:startIconTint="@color/button1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/foodInDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_confirmInDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.8"
+            android:backgroundTint="@color/button3"
+            android:fontFamily="@font/alef"
+            android:text="Confirm Tour"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:background="@color/button1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <com.google.android.material.button.MaterialButton
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/backButtonInAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button1"
+                app:icon="@drawable/back_icon"
+                app:iconGravity="textEnd"/>
+
+            <com.google.android.material.button.MaterialButton
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/homeButtonInAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button1"
+                app:icon="@drawable/home_icon"
+                app:iconGravity="textEnd"/>
+
+            <com.google.android.material.button.MaterialButton
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/tourButtonInAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button1"
+                app:icon="@drawable/mytours_icon"
+                app:iconGravity="textEnd"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:itemIconTint="@color/button1"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_main_menu"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>
